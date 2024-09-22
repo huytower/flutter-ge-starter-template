@@ -1,0 +1,1 @@
+enum SymbolLogger { NEW, HAPPY }

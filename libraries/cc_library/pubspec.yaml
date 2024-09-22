@@ -1,0 +1,68 @@
+name: cc_library
+description: A new Flutter package project.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  android_id:
+  ansicolor:
+
+  crypto:
+  curl_logger_dio_interceptor:
+  custom_refresh_indicator: 3.0.0
+
+  deep_collection:
+
+  device_info_plus:
+
+  dio:
+  dio_cache_interceptor:
+  dio_smart_retry:
+
+  flutter:
+    sdk: flutter
+
+  flutter_animation_progress_bar:
+  flutter_bounceable:
+  flutter_spinkit:
+  flutter_svg:
+
+  get:
+  google_fonts: 6.1.0
+
+  intl:
+  jwt_decoder:
+
+  keyboard_dismisser:
+
+  # src detect phone code.
+  #libphonenumber:
+  local_auth:
+  lottie: #^1.2.2
+
+  mask_text_input_formatter:
+
+  package_info_plus:
+  quiver:
+
+  rxdart:
+  shimmer:
+  simple_animations: 4.1.0
+
+  talker_dio_logger:
+
+  watch_it:
+
+dev_dependencies:
+  flutter_lints:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  assets:
+    - assets/images/

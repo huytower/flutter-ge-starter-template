@@ -1,0 +1,84 @@
+name: mobile_flutter_template
+description: Mobile Flutter Template's Overview
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  app_config:
+    path: modules/app_config
+
+  auto_route: 8.3.0
+  cc_library:
+    path: libraries/cc_library
+
+  content_locale:
+    path: modules/message
+
+  custom_refresh_indicator: 3.0.0
+
+  data:
+    path: modules/data
+  device_info_plus:
+  dio:
+
+  easy_localization:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc:
+  flutter_lints:
+  flutter_spinkit:
+  flutter_svg:
+  fluttertoast:
+
+  get:
+  get_it:
+
+  google_fonts: 6.1.0
+  injectable:
+  internet_connection_checker:
+  intl:
+
+  # Dart data class
+  json_annotation:
+  json_serializable:
+
+  loadmore:
+  logger:
+  lottie:
+  path_provider:
+  provider:
+  reusable:
+    path: modules/reusable
+
+  shared_preferences:
+
+  theme:
+    path: modules/theme
+
+  url_launcher:
+  uuid:
+
+  watch_it:
+  webview_flutter:
+  widget:
+    path: modules/widget
+
+dev_dependencies:
+  auto_route_generator:
+  build_runner:
+  effective_dart:
+  flutter_test:
+    sdk: flutter
+  fvm: 2.4.1
+  injectable_generator:
+  lint:
+
+dependency_overrides:
+  win32: ^5.5.4
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,45 @@
+name: data
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  app_config:
+    path: ../app_config
+
+  curl_logger_dio_interceptor:
+  dio:
+  dio_cache_interceptor:
+  dio_smart_retry:
+
+  flutter:
+    sdk: flutter
+
+  get_it:
+  injectable:
+  json_annotation:
+
+  permission_handler:
+
+  retrofit:
+  reusable:
+    path: ../reusable
+
+  talker_dio_logger:
+
+  uuid:
+  widget:
+    path: ../widget
+
+dev_dependencies:
+  build_runner:
+
+  flutter_test:
+    sdk: flutter
+
+  injectable_generator:
+  json_serializable:
+  retrofit_generator:

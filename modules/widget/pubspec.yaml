@@ -1,0 +1,37 @@
+name: widget
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  cc_library:
+    path: ../../libraries/cc_library
+
+  app_config:
+    path: ../app_config
+
+  flutter:
+    sdk: flutter
+  fluttertoast:
+  modal_bottom_sheet:
+  path_provider:
+  provider:
+
+  reusable:
+    path: ../reusable
+
+  shared_preferences:
+  theme:
+    path: ../theme
+
+  url_launcher:
+  permission_handler:
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter

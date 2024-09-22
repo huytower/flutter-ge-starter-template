@@ -1,0 +1,104 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+.idea/
+.vagrant/
+.sconsign.dblite
+.svn/
+
+# dir/ios
+
+*.swp
+profile
+
+DerivedData/
+
+.generated/
+
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+xcuserdata
+
+*.moved-aside
+
+*.pyc
+*sync/
+Icon?
+.tags*
+
+build/
+.android/
+.ios/
+#sios/
+.flutter-plugins
+.flutter-plugins-dependencies
+.gradle/
+
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Miscellaneous
+*.class
+*.log
+.atom/
+.buildlog/
+.history
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+*.metadata
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.pub-cache/
+/build/
+pubspec.lock
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+
+# Obfuscation related
+
+# Android Studio will place build artifacts here
+# android
+/android/local.properties
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+/android/.gradle
+
+# ios
+/ios/.symlinks/
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/Flutter.podspec
+/ios/Pods
+/ios/Podfile.lock
+/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+/ios/Runner.xcodeproj/xcshareddata
+/ios/Runner.xcworkspace/contents.xcworkspacedata
+# MUST only commit for the first time push in .git
+/ios/Runner.xcodeproj/project.pbxproj

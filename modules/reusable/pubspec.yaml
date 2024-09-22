@@ -1,0 +1,41 @@
+name: reusable
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+
+  animated_toggle_switch:
+
+  app_config:
+    path: ../app_config
+
+  cc_library:
+    path: ../../libraries/cc_library
+
+  data:
+    path: ../data
+
+  flutter:
+    sdk: flutter
+  flutter_spinkit:
+  get:
+  google_fonts: 6.1.0
+  provider:
+
+  theme:
+    path: ../theme
+
+  widget:
+    path: ../widget
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

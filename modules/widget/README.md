@@ -1,0 +1,3 @@
+### Features
+Focus all widgets (can not re-use) will define in application.
+ex. `CustomPageWidget`, `CollectionWidget` ...

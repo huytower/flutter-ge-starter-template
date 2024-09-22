@@ -1,0 +1,28 @@
+name: theme
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  cc_library:
+    path: ../../libraries/cc_library
+
+  flutter:
+    sdk: flutter
+
+  # add font text from google.
+  google_fonts: 6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/background/
+    - assets/icon/
+    - assets/lottie/
+    - assets/logo/

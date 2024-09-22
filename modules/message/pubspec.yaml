@@ -1,0 +1,31 @@
+name: content_locale
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+
+  easy_localization:
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+
+    - assets/translations/thanh_ph/home/
+    - assets/translations/thanh_ph/setting/
+
+    - assets/translations/huy_ph/home/
+    - assets/translations/huy_ph/setting/
+
