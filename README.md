@@ -382,19 +382,3 @@ Template
     │   └── widget
     └── End
 ```
-
-#### Modules Explain
-
-1. [Module `cc_library` Readme.md](https://bitbucket.org/concung/cci.mobile.appbase/src/master/modules/cc_library/)
-   
-2. [Module `config_prefs` Readme.md](https://bitbucket.org/concung/cci.mobile.appbase/src/master/modules/config_prefs/)
-
-3. [Module `content` Readme.md](https://bitbucket.org/concung/cci.mobile.appbase/src/master/modules/content/)
-
-4. [Module `data` Readme.md](https://bitbucket.org/concung/cci.mobile.appbase/src/master/modules/data/)
-
-5. [Module `reusable` Readme.md](https://bitbucket.org/concung/cci.mobile.appbase/src/master/modules/reusable/)
-
-6. [Module `theme` Readme.md](https://bitbucket.org/concung/cci.mobile.appbase/src/master/modules/theme/)
-
-7. [Module `widget` Readme.md](https://bitbucket.org/concung/cci.mobile.appbase/src/master/modules/widget/)
