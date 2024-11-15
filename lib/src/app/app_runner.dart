@@ -55,7 +55,7 @@ class AppRunnerState extends State<AppRunner> with AppRunnerImpl {
   }
 
   Widget buildBody() => when(variable: CcAppRoutingManager.defaultRoutingManager, conditions: {
-        RoutingManagerEnum.AUTO_ROUTE: () => buildAutoRoute(),
+        // RoutingManagerEnum.AUTO_ROUTE: () => buildAutoRoute(),
         RoutingManagerEnum.GETX: () => buildGetxRoute(),
       });
 
@@ -67,7 +67,7 @@ class AppRunnerState extends State<AppRunner> with AppRunnerImpl {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: CcThemes.darkTheme,
-      initialRoute: getPageName(PageNameEnum.SPLASH),
+      initialRoute: getPageName(PageNameEnum.INTRO),
       getPages: GetxRoutingManager.instance.getPages(),
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,

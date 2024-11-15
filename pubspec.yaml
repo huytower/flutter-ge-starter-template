@@ -23,6 +23,7 @@ dependencies:
     path: modules/data
   device_info_plus:
   dio:
+  talker_dio_logger:
 
   easy_localization:
   flutter:
